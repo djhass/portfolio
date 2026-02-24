@@ -1,5 +1,5 @@
 ---
-title: Embedded Systems Robot Control L
+title: Embedded Systems Robot Control
 description: Final Lab Project for Embedded Systems for controlling a robot
 pubDate: 2025-12-5
 heroImage: ../../assets/robot.JPG
