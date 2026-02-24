@@ -15,16 +15,16 @@ const site = await getSite();
 ---
 
 <PageLayout
-	title={site.author.name || 'Dasein'}
+	title={site.author.name || 'Daniel'}
 >
 	<Hero
-		title={site.author.name || 'Dasein'}
-		description={site.author.bio || 'Welcome to my personal website.'}
+		title={site.author.name || 'Daniel'}
+		description={site.author.bio || ''}
 		role={site.author.role}
 		location={site.author.location}
 		actions={[
-			{ label: 'View Blog', href: '/blog' },
-			{ label: 'Get Quote', href: '/contact' },
+			// { label: 'View Blog', href: '/blog' },
+			// { label: 'Get Quote', href: '/contact' },
 		]}
 	/>
 
@@ -36,11 +36,11 @@ const site = await getSite();
 		viewAllHref="/projects"
 	/>
 
-	<PostList
+	<!-- <PostList
 		heading="Blog"
 		limit={3}
 		viewAllHref="/blog"
-	/>
+	/> -->
 
 	            <!-- Sections (from src/content/sections.yml) -->
             {
