@@ -2,7 +2,7 @@
 title: PLC Light Game
 description: A mditerm project on a Allen-Bradleey PLC trainer where the goal is to get every light to light up at the same time by timing them right.
 pubDate: 2026-3-12
-heroImage: ../../assets/plc.jpg
+heroImage: ../../assets/plc.JPG
 updatedDate: 2026-3-12
 ---
 
