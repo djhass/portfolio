@@ -11,9 +11,9 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://djhass.github.io',
+  site: 'https://dannywander.org',
 
-  base: '/portfolio',
+  base: '/',
   integrations: [mdx(), sitemap(), pagefind(), icon()],
 
   vite: {
